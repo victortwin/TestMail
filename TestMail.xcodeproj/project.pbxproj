@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		5753A8AF2B8A2F97008B5980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8AE2B8A2F97008B5980 /* AppDelegate.swift */; };
 		5753A8B12B8A2F97008B5980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8B02B8A2F97008B5980 /* SceneDelegate.swift */; };
-		5753A8B32B8A2F97008B5980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8B22B8A2F97008B5980 /* ViewController.swift */; };
-		5753A8B62B8A2F97008B5980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5753A8B42B8A2F97008B5980 /* Main.storyboard */; };
+		5753A8B32B8A2F97008B5980 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8B22B8A2F97008B5980 /* VerificationViewController.swift */; };
 		5753A8B82B8A2F98008B5980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5753A8B72B8A2F98008B5980 /* Assets.xcassets */; };
 		5753A8BB2B8A2F98008B5980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5753A8B92B8A2F98008B5980 /* LaunchScreen.storyboard */; };
+		5753A8C82B8A35C2008B5980 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8C72B8A35C2008B5980 /* StatusLabel.swift */; };
+		5753A8CC2B8A3B14008B5980 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8CB2B8A3B14008B5980 /* UIStackView + Extensions.swift */; };
+		5753A8CE2B8A410A008B5980 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8CD2B8A410A008B5980 /* MailTextField.swift */; };
+		5753A8D02B8A4368008B5980 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8CF2B8A4368008B5980 /* VerificationButton.swift */; };
+		5753A8D22B8A46B6008B5980 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */; };
+		5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5753A8AB2B8A2F97008B5980 /* TestMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5753A8AE2B8A2F97008B5980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5753A8B02B8A2F97008B5980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5753A8B22B8A2F97008B5980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5753A8B52B8A2F97008B5980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5753A8B22B8A2F97008B5980 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		5753A8B72B8A2F98008B5980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5753A8BA2B8A2F98008B5980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5753A8BC2B8A2F98008B5980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5753A8C72B8A35C2008B5980 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		5753A8CB2B8A3B14008B5980 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		5753A8CD2B8A410A008B5980 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		5753A8CF2B8A4368008B5980 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
+		5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,92 @@
 		5753A8AD2B8A2F97008B5980 /* TestMail */ = {
 			isa = PBXGroup;
 			children = (
+				5753A8C22B8A3057008B5980 /* Application */,
+				5753A8C32B8A306F008B5980 /* Models */,
+				5753A8C52B8A3088008B5980 /* Views */,
+				5753A8C42B8A307B008B5980 /* Controllers */,
+				5753A8C92B8A3AD3008B5980 /* Extensions */,
+				5753A8C62B8A30BF008B5980 /* Resources */,
+			);
+			path = TestMail;
+			sourceTree = "<group>";
+		};
+		5753A8C22B8A3057008B5980 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				5753A8AE2B8A2F97008B5980 /* AppDelegate.swift */,
 				5753A8B02B8A2F97008B5980 /* SceneDelegate.swift */,
-				5753A8B22B8A2F97008B5980 /* ViewController.swift */,
-				5753A8B42B8A2F97008B5980 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5753A8C32B8A306F008B5980 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5753A8C42B8A307B008B5980 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8B22B8A2F97008B5980 /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5753A8C52B8A3088008B5980 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8D62B8A4A50008B5980 /* VerificationVC */,
+				5753A8D32B8A48A8008B5980 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5753A8C62B8A30BF008B5980 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				5753A8B72B8A2F98008B5980 /* Assets.xcassets */,
 				5753A8B92B8A2F98008B5980 /* LaunchScreen.storyboard */,
 				5753A8BC2B8A2F98008B5980 /* Info.plist */,
 			);
-			path = TestMail;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5753A8C92B8A3AD3008B5980 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8CA2B8A3AF4008B5980 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5753A8CA2B8A3AF4008B5980 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8CB2B8A3B14008B5980 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5753A8D32B8A48A8008B5980 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5753A8D62B8A4A50008B5980 /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				5753A8C72B8A35C2008B5980 /* StatusLabel.swift */,
+				5753A8CD2B8A410A008B5980 /* MailTextField.swift */,
+				5753A8CF2B8A4368008B5980 /* VerificationButton.swift */,
+				5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */,
+			);
+			path = VerificationVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +214,6 @@
 			files = (
 				5753A8BB2B8A2F98008B5980 /* LaunchScreen.storyboard in Resources */,
 				5753A8B82B8A2F98008B5980 /* Assets.xcassets in Resources */,
-				5753A8B62B8A2F97008B5980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5753A8B32B8A2F97008B5980 /* ViewController.swift in Sources */,
+				5753A8C82B8A35C2008B5980 /* StatusLabel.swift in Sources */,
+				5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */,
+				5753A8D02B8A4368008B5980 /* VerificationButton.swift in Sources */,
+				5753A8B32B8A2F97008B5980 /* VerificationViewController.swift in Sources */,
+				5753A8CE2B8A410A008B5980 /* MailTextField.swift in Sources */,
 				5753A8AF2B8A2F97008B5980 /* AppDelegate.swift in Sources */,
+				5753A8D22B8A46B6008B5980 /* MailCollectionView.swift in Sources */,
+				5753A8CC2B8A3B14008B5980 /* UIStackView + Extensions.swift in Sources */,
 				5753A8B12B8A2F97008B5980 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5753A8B42B8A2F97008B5980 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5753A8B52B8A2F97008B5980 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5753A8B92B8A2F98008B5980 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +378,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D3HK5NNSMA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +405,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D3HK5NNSMA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
