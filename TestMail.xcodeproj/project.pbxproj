@@ -18,6 +18,8 @@
 		5753A8D02B8A4368008B5980 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8CF2B8A4368008B5980 /* VerificationButton.swift */; };
 		5753A8D22B8A46B6008B5980 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */; };
 		5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */; };
+		5753D7092B8CE64F00BC3AC6 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */; };
+		5753D70B2B8CF44D00BC3AC6 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D70A2B8CF44D00BC3AC6 /* String + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5753A8CF2B8A4368008B5980 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 		5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
 		5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		5753D70A2B8CF44D00BC3AC6 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		5753A8C32B8A306F008B5980 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				5753A8CA2B8A3AF4008B5980 /* UIKit */,
+				5753D70A2B8CF44D00BC3AC6 /* String + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,10 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5753D7092B8CE64F00BC3AC6 /* VerificationModel.swift in Sources */,
 				5753A8C82B8A35C2008B5980 /* StatusLabel.swift in Sources */,
 				5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */,
 				5753A8D02B8A4368008B5980 /* VerificationButton.swift in Sources */,
 				5753A8B32B8A2F97008B5980 /* VerificationViewController.swift in Sources */,
+				5753D70B2B8CF44D00BC3AC6 /* String + Extensions.swift in Sources */,
 				5753A8CE2B8A410A008B5980 /* MailTextField.swift in Sources */,
 				5753A8AF2B8A2F97008B5980 /* AppDelegate.swift in Sources */,
 				5753A8D22B8A46B6008B5980 /* MailCollectionView.swift in Sources */,

@@ -7,14 +7,14 @@
 
 import UIKit
 
-protocol ActionsMailTextFieldProtocol: AnyObject {
+protocol ActionsMailTextFieldDelegate: AnyObject {
     func typingText(text: String)
     func cleanOutTextField()
 }
 
 class MailTextField: UITextField {
     
-    weak var textFieldDelegate: ActionsMailTextFieldProtocol?
+    weak var textFieldDelegate: ActionsMailTextFieldDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -44,14 +44,17 @@ class MailTextField: UITextField {
 }
 
 extension MailTextField: UITextFieldDelegate {
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.resignFirstResponder()
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        guard let text = textField.text else { return true }
-        textFieldDelegate?.typingText(text: text)
+        if let text = textField.text, let textRange = Range(range, in: text) {
+            let updateText = text.replacingCharacters(in: textRange, with: string)
+            textFieldDelegate?.typingText(text: updateText)
+        }
         return true
     }
     
