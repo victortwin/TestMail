@@ -20,6 +20,11 @@
 		5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */; };
 		5753D7092B8CE64F00BC3AC6 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */; };
 		5753D70B2B8CF44D00BC3AC6 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D70A2B8CF44D00BC3AC6 /* String + Extensions.swift */; };
+		5757BFD12B8E2ED8001CE205 /* MailApiKei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757BFD02B8E2ED8001CE205 /* MailApiKei.swift */; };
+		5757BFD32B8E315A001CE205 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757BFD22B8E315A001CE205 /* NetworkRequest.swift */; };
+		5757BFD52B8E3625001CE205 /* MailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757BFD42B8E3625001CE205 /* MailResponseModel.swift */; };
+		5757BFD72B8E3A10001CE205 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757BFD62B8E3A10001CE205 /* NetworkDataFetch.swift */; };
+		5757BFD92B8E3DAE001CE205 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757BFD82B8E3DAE001CE205 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		5753A8D42B8A48C4008B5980 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 		5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
 		5753D70A2B8CF44D00BC3AC6 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		5757BFD02B8E2ED8001CE205 /* MailApiKei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKei.swift; sourceTree = "<group>"; };
+		5757BFD22B8E315A001CE205 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5757BFD42B8E3625001CE205 /* MailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponseModel.swift; sourceTree = "<group>"; };
+		5757BFD62B8E3A10001CE205 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		5757BFD82B8E3DAE001CE205 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,7 @@
 		5753A8AD2B8A2F97008B5980 /* TestMail */ = {
 			isa = PBXGroup;
 			children = (
+				5757BFCF2B8E2EAA001CE205 /* Network */,
 				5753A8C22B8A3057008B5980 /* Application */,
 				5753A8C32B8A306F008B5980 /* Models */,
 				5753A8C52B8A3088008B5980 /* Views */,
@@ -93,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5753D7082B8CE64F00BC3AC6 /* VerificationModel.swift */,
+				5757BFD42B8E3625001CE205 /* MailResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +122,7 @@
 			children = (
 				5753A8D62B8A4A50008B5980 /* VerificationVC */,
 				5753A8D32B8A48A8008B5980 /* Cells */,
+				5757BFD82B8E3DAE001CE205 /* Alerts.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +171,16 @@
 				5753A8D12B8A46B6008B5980 /* MailCollectionView.swift */,
 			);
 			path = VerificationVC;
+			sourceTree = "<group>";
+		};
+		5757BFCF2B8E2EAA001CE205 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5757BFD02B8E2ED8001CE205 /* MailApiKei.swift */,
+				5757BFD22B8E315A001CE205 /* NetworkRequest.swift */,
+				5757BFD62B8E3A10001CE205 /* NetworkDataFetch.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,11 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5757BFD32B8E315A001CE205 /* NetworkRequest.swift in Sources */,
 				5753D7092B8CE64F00BC3AC6 /* VerificationModel.swift in Sources */,
+				5757BFD92B8E3DAE001CE205 /* Alerts.swift in Sources */,
 				5753A8C82B8A35C2008B5980 /* StatusLabel.swift in Sources */,
 				5753A8D52B8A48C4008B5980 /* MailCollectionViewCell.swift in Sources */,
+				5757BFD72B8E3A10001CE205 /* NetworkDataFetch.swift in Sources */,
 				5753A8D02B8A4368008B5980 /* VerificationButton.swift in Sources */,
 				5753A8B32B8A2F97008B5980 /* VerificationViewController.swift in Sources */,
+				5757BFD12B8E2ED8001CE205 /* MailApiKei.swift in Sources */,
+				5757BFD52B8E3625001CE205 /* MailResponseModel.swift in Sources */,
 				5753D70B2B8CF44D00BC3AC6 /* String + Extensions.swift in Sources */,
 				5753A8CE2B8A410A008B5980 /* MailTextField.swift in Sources */,
 				5753A8AF2B8A2F97008B5980 /* AppDelegate.swift in Sources */,

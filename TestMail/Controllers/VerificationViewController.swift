@@ -51,7 +51,29 @@ class VerificationViewController: UIViewController {
     }
     
     @objc private func verificationButtonTapped() {
-        print("ButtonTap")
+        guard let mail = mailTextField.text else { return }
+        
+        NetworkDataFetch.shared.fetchMail(verifiableMail: mail) { result, error in
+            
+            if error == nil {
+                guard let result = result else { return }
+                if result.success {
+                    guard let didYouMeanError = result.did_you_mean else {
+                        Alert.showResultAlert(vc: self,
+                                              message: "Mail status \(result.result) \n \(result.reasonDescription)")
+                        return
+                    }
+                    Alert.showErrorAlert(vc: self,
+                                         message: "Did you mean: \(didYouMeanError)") { [weak self] in
+                        guard let self = self else { return }
+                        self.mailTextField.text = didYouMeanError
+                    }
+                }
+            } else {
+                guard let errorDescription = error?.localizedDescription else { return }
+                Alert.showResultAlert(vc: self, message: errorDescription)
+            }
+        }
     }
 }
 
@@ -118,7 +140,7 @@ extension VerificationViewController {
             backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             
-            statusLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 300),
+            statusLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 150),
             statusLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             statusLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             
